@@ -1,24 +1,22 @@
-# README
+# Articles and comments
+* Basic ruby blog with simple authentication.
+* Followed this guide: https://guides.rubyonrails.org/getting_started.html
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Configuration
+```
+git clone {repo}
+cd {repo}
+bundle install
+```
 
-Things you may want to cover:
+### Database creation
+`rake db:create`
 
-* Ruby version
+### Database initialization
+`rake db:migrate`
 
-* System dependencies
+### Ruby version
+2.7.0
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### System dependencies
+Postgres 12
